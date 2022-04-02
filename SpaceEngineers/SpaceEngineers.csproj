@@ -35,6 +35,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\SpaceEngineersApiFiles\Sandbox.Common.dll</HintPath>
     </Reference>
+    <Reference Include="SpaceEngineers.Game">
+      <HintPath>..\SpaceEngineersApiFiles\SpaceEngineers.Game.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\InfDrill\InfDrillAutomation.cs" />
     <Compile Include="Scripts\Sprill\SprillCoreDrill.cs" />
     <Compile Include="Scripts\Sprill\SprillSidePiston.cs" />
   </ItemGroup>

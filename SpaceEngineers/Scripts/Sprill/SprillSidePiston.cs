@@ -111,7 +111,7 @@ namespace SpaceEngineers.Scripts.Sprill {
                                     mainPiston.MinLimit -= 1.0f;
                                 } else {
                                     extend = true;
-                                    mainPiston.MaxLimit = 0.0f;
+                                    mainPiston.MaxLimit = 23.0f;
                                     mainPiston2.MaxLimit = 0.0f;
                                     stage = Stage.StopRotation;
                                     lastAngle = rotor.Angle;
